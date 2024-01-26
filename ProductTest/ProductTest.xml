@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductTest</name>
+    </assembly>
+    <members>
+        <member name="M:ProductTest.Controllers.ProductController.GetById(System.Nullable{System.Guid})">
+            <summary>
+            Method to get the product by id
+            </summary>
+            <param name="productId">product related with the provided id </param>
+            <returns>item or null</returns>
+        </member>
+        <member name="M:ProductTest.Controllers.ProductController.Create(PT.Domain.Entities.Product)">
+            <summary>
+            Method to create a product
+            </summary>
+            <param name="product">Product to be created on the repository</param>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:ProductTest.Controllers.ProductController.Update(PT.Domain.Entities.Product)">
+            <summary>
+            Method to update a product
+            </summary>
+            <param name="product">Produc to be updated on the repository</param>
+            <returns>success or failure</returns>
+        </member>
+    </members>
+</doc>

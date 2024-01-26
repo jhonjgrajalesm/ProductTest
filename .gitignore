@@ -1,0 +1,7 @@
+ProductTest/bin/Debug/
+ProductTest/obj/
+PT.Domain/obj/
+ProductTest/.vs/
+PT.Domain/bin/
+PT.Services/bin/
+PT.Services/obj/
